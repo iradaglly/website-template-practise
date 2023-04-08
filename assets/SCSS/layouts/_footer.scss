@@ -1,0 +1,76 @@
+@import "../abstracts/variables";
+@import"../base/reset";
+@import"../layouts/grids";
+
+footer {
+    width: 100%;
+
+
+    .footer-heading {
+        .footer-content {
+            h5 {
+                padding: 7% 0;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+            }
+
+            p {
+
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color: $text-color;
+                padding: 3% 0;
+
+                .fa-solid {
+                    color: $primary-color;
+                    font-size: 18px;
+                    padding-right: 1%;
+                }
+            }
+
+
+
+        }
+
+    }
+
+    .bottom-footer {
+        .row {
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .footer-text {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+
+// ul display verende yan yana dushmur
+h6{
+    .footer-list{
+        ul{
+            display: flex;  
+            li{
+                a{
+                    i{
+                        font-size: 20px;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+
+}
+               
+            }
+        }
+    }
+
+}

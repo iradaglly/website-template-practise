@@ -1,0 +1,80 @@
+@import"../../abstracts/variables";
+@import"../../base/reset";
+@import"../../abstracts/mixins";
+@import"../../layouts/grids";
+
+main {
+    #packages {
+        width: 100%;
+        margin-top: 10%;
+   
+
+        .packages-content {
+            h5 {
+
+                color: $primary-color;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                color: $text-color;
+                letter-spacing: 0.2px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 600;
+                color: $secondary-color;
+                margin-bottom: 5%;
+            }
+        }
+
+        .row {
+            height: 300px;
+            width: 100%;
+            align-items: center;
+
+            .col-3 {
+                height: 100%;
+                padding: 0 15px;
+                margin-bottom: 5%;
+
+                .card {
+                    padding: 30px;
+                    width: 100%;
+                    height: 100%;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                    h3 {
+                        margin-top: 50px;
+                        margin-bottom: 20px;
+                    }
+
+                    .border {
+                        width: 60px;
+                        height: 5px;
+                        border-top: 3px solid red;
+                        margin-bottom: 15%;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: $secondary-color;
+                    }
+
+                    &:nth-of-type(3) {
+                        background-color: #96bb7c;
+                    }
+                }
+
+
+
+            }
+        }
+    }
+}

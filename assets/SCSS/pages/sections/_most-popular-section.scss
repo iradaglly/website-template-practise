@@ -1,0 +1,66 @@
+@import"../../abstracts/variables";
+@import"../../base/reset";
+@import"../../abstracts/mixins";
+@import"../../layouts/grids";
+
+
+main {
+    #most-popular {
+        width: 100%;
+        margin-top: 5%;
+        padding-top:35% ;
+        padding-bottom: 10%;
+        
+ 
+        h1 {
+            font-size: 40px;
+            color: $text-color;
+            margin-bottom: 5%;
+
+        }
+
+        p {
+            margin-bottom: 5%;
+            font-size: 15px;
+            font-weight: 500;
+            color: #a3a3a3;
+            line-height: 20px;
+        }
+
+        #warning {
+            border: none;
+            color: $primary-color;
+            background-color: white;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+       .row{ height: 100%;
+        width: 100%;
+        .col-6 { 
+            height: 500px;
+            padding: 0 30px;
+@include for-desktop-up{
+    margin: 0 30px;
+    padding: 0;
+}
+            .img {
+                height: 100%;
+                width: 500px;
+                border: 1px solid $primary-color;
+                border-radius: 30px;
+                padding: 10px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+       }
+        .most-popular-content{
+            padding: 100px;
+        }
+
+    }
+}
